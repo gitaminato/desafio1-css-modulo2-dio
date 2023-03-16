@@ -1,0 +1,61 @@
+@import url(./reset.css);
+
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+}
+nav.menu{
+  background-color: aqua;
+  width: auto;
+  height: 56px;
+}
+main{
+  background-color: grey;
+  height: 1000vh;
+  width: 1000vh;
+  margin-left: 75px;
+  margin-top: 30px;
+}
+video{
+  background-color: black;
+  width: 952px;
+  height: 537px;
+}
+p.videoTitle{
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+nav.menuButtons{
+  background-color: black;
+  width: 952px;
+  height: 42px;
+}
+p.description{
+  background-color: aqua;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 952px;
+  height: 100px;
+}
+div.filterComments{
+  background-color: blueviolet;
+  width: 952px;
+  height: 42px;
+}
+
+aside{
+background-color: aqua;
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+width: 388px;
+height: 1000vh;
+}
+
+aside.sideMenu{
+background-color: black;
+width: 388px;
+height: 1000vh;
+}
