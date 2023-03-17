@@ -4,58 +4,117 @@ body{
   font-family: 'Roboto', sans-serif;
   margin: 0 auto;
 }
+
+
+/* navegador top */
 nav.menu{
-  background-color: aqua;
+  background-color: rgb(89, 207, 207);
   width: auto;
-  height: 56px;
+  height: 3.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav div.searchBar{
+  
+}
+
+
+/* estrutura main e side */
+div.divider{
+  display: flex;
+  gap: 3rem;
 }
 main{
-  background-color: grey;
-  height: 1000vh;
-  width: 1000vh;
-  margin-left: 75px;
-  margin-top: 30px;
+  background-color: aquamarine;
+  margin-left: 4.7rem;
 }
-video{
-  background-color: black;
-  width: 952px;
-  height: 537px;
+
+
+/* vídeo */
+iframe{
+  width: 79.2rem;
+  height: 44.7rem;
+  margin-top: 2rem;
 }
 p.videoTitle{
   font-weight: 500;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
-nav.menuButtons{
-  background-color: black;
-  width: 952px;
-  height: 42px;
+
+
+
+/* Navegador dos botões */
+nav.buttons{
+  background-color: rgb(126, 87, 87);
+  width: 79.2rem;
+  height: 2.6rem;
+  display: flex;
+  justify-content: space-between;
 }
+nav div.leftButtons{
+  display: flex;
+}
+nav div.rightButtons{
+  display: flex;
+}
+nav div.likeDeslikeButton{
+  display: flex;
+}
+
+
+
+/* descrição do vídeo */
 p.description{
   background-color: aqua;
   font-weight: 300;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 952px;
-  height: 100px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 79.2rem;
+  height: 6.2rem;
 }
+
+/* navegador de filtro e comentários */
 div.filterComments{
   background-color: blueviolet;
-  width: 952px;
-  height: 42px;
+  width: 79.2rem;
+  height: 2.6rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  font-weight: 500;
+}
+div.sortBy{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
-aside{
-background-color: aqua;
-display: flex;
-flex-direction: column;
-align-items: flex-end;
-width: 388px;
-height: 1000vh;
-}
 
+
+/* Menu Lateral */
 aside.sideMenu{
-background-color: black;
-width: 388px;
-height: 1000vh;
+  background-color: rgb(210, 174, 174);
+  width: 30rem;
+  height: 100rem;
+  margin-right: 3rem;
+  margin-top: 2rem;
+  display: flex;
+  gap: 2.25rem;
+}
+div.tumbs{
+  background-color: blueviolet;
+  width: 13.3rem;
+  height: 100rem;
+  display: flex;
+  flex-direction: column;
+}
+div.tumbsDescription{
+  background-color: aqua;
+  width: 15rem;
+  height: 100rem;
+  display: flex;
+  flex-direction: column;
 }
