@@ -12,16 +12,21 @@
 
   <link rel="stylesheet" href="./assets/css/style.css">
 
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+
 </head>
 <body>
   <nav class="menu">
 
-    <div class="leftMenu">     
-      <svg width="25" height="25" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M4.9812 16.0027H28.9687" stroke="black" stroke-width="2.66528" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M4.9812 8.00696H28.9687" stroke="black" stroke-width="2.66528" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M4.9812 23.9986H28.9687" stroke="black" stroke-width="2.66528" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
+    <div class="leftMenu">
+      <div class="hoverButtons">
+        <svg id="hamburgMenu" width="25" height="25" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4.9812 16.0027H28.9687" stroke="black" stroke-width="2.66528" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M4.9812 8.00696H28.9687" stroke="black" stroke-width="2.66528" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M4.9812 23.9986H28.9687" stroke="black" stroke-width="2.66528" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>     
+      
       <img src="./assets/images/youtube 1.png" alt="">      
     </div>
     <div class="centerMenu">
@@ -35,6 +40,7 @@
           
     </div>
     <div class="rightMenu">
+      <div class="hoverButtons">
       <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clip-path="url(#clip0_1_32)">
         <path d="M31.4243 9.3396L22.0958 16.0028L31.4243 22.666V9.3396Z" stroke="black" stroke-width="1.33264" stroke-linecap="round" stroke-linejoin="round"/>
@@ -46,10 +52,13 @@
         </clipPath>
         </defs>
       </svg>
+    </div>
+    <div class="hoverButtons">
       <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M24.7277 10.6722C24.7277 8.5516 23.8853 6.51783 22.3858 5.01832C20.8863 3.51881 18.8525 2.67639 16.7319 2.67639C14.6113 2.67639 12.5775 3.51881 11.078 5.01832C9.57849 6.51783 8.73608 8.5516 8.73608 10.6722C8.73608 20.0007 4.73816 22.666 4.73816 22.666H28.7257C28.7257 22.666 24.7277 20.0007 24.7277 10.6722Z" stroke="black" stroke-width="1.33264" stroke-linecap="round" stroke-linejoin="round"/>
         <path d="M19.0374 27.9965C18.8032 28.4004 18.4669 28.7357 18.0623 28.9687C17.6576 29.2018 17.1989 29.3244 16.732 29.3244C16.265 29.3244 15.8063 29.2018 15.4017 28.9687C14.9971 28.7357 14.6608 28.4004 14.4265 27.9965" stroke="black" stroke-width="1.33264" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
+    </div>
       <div class="avatarNav">
       </div>
     </div>  
@@ -70,13 +79,13 @@
             <p class="channelName">HBO Max</p>
             <p class="subscribersTotal">1.84M subscribers</p>
           </div>
-          <div class="subscriberButton">
+          <div class="bgButton" id="subscriberButton">
             <p>Subscribe</p>
           </div>
         </div>
         
         <div class="rightButtons">
-          <div class="likeDeslikeButton">
+          <div class="bgButton">
             <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M10.0702 30.2138H6.07229C5.36542 30.2138 4.68749 29.933 4.18765 29.4332C3.68782 28.9334 3.40701 28.2554 3.40701 27.5486V18.2201C3.40701 17.5132 3.68782 16.8353 4.18765 16.3355C4.68749 15.8356 5.36542 15.5548 6.07229 15.5548H10.0702M19.3987 12.8895V7.55898C19.3987 6.49867 18.9775 5.48178 18.2277 4.73203C17.478 3.98227 16.4611 3.56107 15.4008 3.56107L10.0702 15.5548V30.2138H25.1024C25.7451 30.2211 26.3689 29.9958 26.8587 29.5795C27.3484 29.1632 27.6713 28.5839 27.7677 27.9484L29.6067 15.9546C29.6647 15.5726 29.6389 15.1826 29.5312 14.8115C29.4235 14.4405 29.2364 14.0973 28.9828 13.8057C28.7293 13.5142 28.4154 13.2812 28.0629 13.123C27.7104 12.9648 27.3278 12.8852 26.9414 12.8895H19.3987Z" stroke="black" stroke-width="1.33264" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>           
@@ -87,7 +96,7 @@
             </svg>
               
           </div>
-          <div class="shareButton">
+          <div class="bgButton">
             <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M24.9598 11.5569C27.1678 11.5569 28.9577 9.76697 28.9577 7.55898C28.9577 5.35099 27.1678 3.56107 24.9598 3.56107C22.7518 3.56107 20.9619 5.35099 20.9619 7.55898C20.9619 9.76697 22.7518 11.5569 24.9598 11.5569Z" stroke="black" stroke-width="1.33264" stroke-linecap="round" stroke-linejoin="round"/>
               <path d="M8.96813 20.8854C11.1761 20.8854 12.966 19.0954 12.966 16.8874C12.966 14.6795 11.1761 12.8895 8.96813 12.8895C6.76014 12.8895 4.97021 14.6795 4.97021 16.8874C4.97021 19.0954 6.76014 20.8854 8.96813 20.8854Z" stroke="black" stroke-width="1.33264" stroke-linecap="round" stroke-linejoin="round"/>
@@ -97,7 +106,7 @@
             </svg>
             <p>Share</p>            
           </div>     
-          <div class="downloadButton">
+          <div class="bgButton">
             <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M28.573 20.8854V26.2159C28.573 26.9228 28.2922 27.6007 27.7924 28.1006C27.2925 28.6004 26.6146 28.8812 25.9077 28.8812H7.25079C6.54391 28.8812 5.86599 28.6004 5.36615 28.1006C4.86632 27.6007 4.58551 26.9228 4.58551 26.2159V20.8854" stroke="black" stroke-width="1.33264" stroke-linecap="round" stroke-linejoin="round"/>
               <path d="M9.91608 14.2222L16.5793 20.8854L23.2425 14.2222" stroke="black" stroke-width="1.33264" stroke-linecap="round" stroke-linejoin="round"/>
@@ -106,7 +115,7 @@
             </svg>
             <p>Download</p>            
           </div>
-          <div class="clipButton">
+          <div class="bgButton">
             <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="3" cy="3" r="2.5" stroke="black"/>
               <circle cx="3" cy="14" r="2.5" stroke="black"/>
@@ -115,7 +124,7 @@
             </svg>
             <p>Clip</p>            
           </div>
-          <div class="optionsButton">
+          <div class="bgButton">
             <svg width="13" height="3" viewBox="0 0 13 3" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="1.5" cy="1.5" r="1.5" fill="black"/>
               <circle cx="6.5" cy="1.5" r="1.5" fill="black"/>
@@ -260,5 +269,3 @@
 
 </body>
 </html>
-
-<!-- comando para identar no vscode -->
